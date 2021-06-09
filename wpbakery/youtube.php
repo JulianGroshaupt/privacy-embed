@@ -24,7 +24,7 @@ if (!class_exists('VcPrivacyEmbedYouTube')) {
             'type' => 'textfield',
             'class' => '',
             'heading' => __('Title', 'privacy-embed'),
-            'param_name' => 'video_title',
+            'param_name' => 'title',
             'description' => __('The title above the embed', 'privacy-embed'),
             'holder' => 'div'
           ),

@@ -23,12 +23,12 @@ if (!class_exists('PrivacyEmbedYouTubeShortcode')) {
     public function render_shortcode($attributes, $content, $tag)
     {
       $attributes = (shortcode_atts(array(
-        'video_title' => '',
+        'title' => '',
         'youtube_link' => ''
       ), $attributes));
 
       // extract title
-      $title = esc_html($attributes['video_title']);
+      $title = esc_html($attributes['title']);
 
       // extract youtube link
       $youtube_link_url = esc_html($attributes['youtube_link']);
