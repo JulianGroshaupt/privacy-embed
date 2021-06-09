@@ -69,7 +69,7 @@ if (!class_exists('PrivacyEmbedYouTubeShortcode')) {
       if ($title != '') $output .= '<h2>' . $title . '</h2>';
 
       // create overall div
-      $output .= '<div class="youtube privacy-embed">';
+      $output .= '<div><div class="youtube privacy-embed">';
 
       // add iframe
       $output .= '<iframe class="youtube privacy-embed-iframe" data-src="' . $youtube_embed_url . '"></iframe>';
@@ -84,7 +84,7 @@ if (!class_exists('PrivacyEmbedYouTubeShortcode')) {
       </p>';
 
       // close overall div
-      $output .= '</div>';
+      $output .= '</div></div>';
 
       // return everything
       return $output;

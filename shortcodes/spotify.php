@@ -52,7 +52,7 @@ if (!class_exists('PrivacyEmbedSpotifyShortcode')) {
       if ($title != '') $output .= '<h2>' . $title . '</h2>';
 
       // create overall div
-      $output .= '<div class="spotify privacy-embed">';
+      $output .= '<div><div class="spotify privacy-embed">';
 
       // add iframe
       $output .= '<iframe class="spotify privacy-embed-iframe" data-src="' . $spotify_embed_url . '"></iframe>';
@@ -67,7 +67,7 @@ if (!class_exists('PrivacyEmbedSpotifyShortcode')) {
       </p>';
 
       // close overall div
-      $output .= '</div>';
+      $output .= '</div></div>';
 
       // return everything
       return $output;
