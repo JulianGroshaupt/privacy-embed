@@ -4,7 +4,7 @@ Tags: privacy, youtube-embed, youtube, spotify-embed, spotify, embed
 Requires at least: 5.7
 Tested up to: 5.7
 Requires PHP: 5.1.2
-Stable tag: 1.0.0
+Stable tag: 1.0.1
 License: GPL v2 or later
 License URI: License URI: https://www.gnu.org/licenses/gpl-2.0.html
 
@@ -36,5 +36,10 @@ Currently, embeddings of the following services are supported:
 \* You can get the Spotify URI by clicking "Share" on the Spotify page of any artist, album or track and then selecting "Copy Spotify URI".
 
 == Changelog ==
+= 1.0.1 =
+* fixed: styling
+* fixed: title on youtube embeds
+* fixed: default notice if values on settings page are not set
+
 = 1.0.0 = 
 * inital version
