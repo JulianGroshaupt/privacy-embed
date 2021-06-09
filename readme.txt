@@ -25,8 +25,8 @@ Currently, embeddings of the following services are supported:
 1. Make sure that your WordPress installation meets the minimum requirements of this plugin.
 2. Upload the plugin to the /wp-content/plugins/ directory or install it directly from the admin pages.
 3. Use the shortcodes:
-    - Spotify*: [privacy-embed_spotify title="Title of embed" spotify_url="spotify:album:1DFixLWuPkv3KT3TnV35m3"]
-    - YouTube: [privacy-embed_youtube title="Title of embed" youtube_link="https://www.youtube.com/watch?v=kV9sNmujCPk"]
+    - Spotify*: [privacy-embed_spotify title='Title of embed' spotify_url='spotify:album:1DFixLWuPkv3KT3TnV35m3']
+    - YouTube: [privacy-embed_youtube title='Title of embed' youtube_link='https://www.youtube.com/watch?v=kV9sNmujCPk']
 
 \* You can get the Spotify URI by clicking "Share" on the Spotify page of any artist, album or track and then selecting "Copy Spotify URI".
 
