@@ -33,7 +33,7 @@
   position: absolute;
   width: calc(100% - 2 * 20px); /* (2*3px = border) | 2*20px = padding */
   max-height: calc(100% - 2 * 20px); /* (2*3px = border) | 2*20px = padding */
-  top: calc(50% - 20px);
+  top: calc(50% + 3px);
   left: 18px;
   transform: translateY(-50%);
   padding: 0px 20px;
@@ -42,6 +42,7 @@
   z-index: 2;
   font-weight: bold;
   color: white;
+  margin: 0px !important;
 
   overflow-y: auto;
   overflow-x: hidden;
@@ -90,7 +91,7 @@
   position: absolute;
   width: calc(100% - 2 * 20px); /* (2*3px = border) | 2*20px = padding */
   max-height: calc(100% - 2 * 20px); /* (2*3px = border) | 2*20px = padding */
-  top: calc(50% - 20px);
+  top: calc(50% + 3px);
   left: 18px;
   transform: translateY(-50%);
   padding: 0px 20px;
@@ -99,6 +100,7 @@
   z-index: 2;
   font-weight: bold;
   color: white;
+  margin: 0px !important;
 
   overflow-y: auto;
   overflow-x: hidden;
