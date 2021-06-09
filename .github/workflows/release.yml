@@ -6,7 +6,22 @@ on:
       - "*.*.*"
 
 jobs:
-  release:
+  wordpress:
+    runs-on: ubuntu-latest
+
+    steps:
+      - uses: actions/checkout@v2
+
+      - name: release on wordpress
+        uses: 10up/action-wordpress-plugin-deploy@stable
+        env:
+          SVN_PASSWORD: ${{ secrets.SVN_PASSWORD }}
+          SVN_USERNAME: ${{ secrets.SVN_USERNAME }}
+          SLUG: privacy-embed
+
+  github:
+    needs: wordpress
+
     runs-on: ubuntu-latest
 
     steps:
@@ -24,10 +39,3 @@ jobs:
             privacy-embed.zip
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-
-      - name: release on wordpress
-        uses: 10up/action-wordpress-plugin-deploy@stable
-        env:
-          SVN_PASSWORD: ${{ secrets.SVN_PASSWORD }}
-          SVN_USERNAME: ${{ secrets.SVN_USERNAME }}
-          SLUG: privacy-embed
