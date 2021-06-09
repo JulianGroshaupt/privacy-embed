@@ -21,6 +21,11 @@ Currently, embeddings of the following services are supported:
 * YouTube videos (Google)
 * Spotify (Artists, Albums, Tracks)
 
+== Screenshots ==
+1. Adding the shortcodes on a page
+2. Spotify and YouTube Embed on a page
+3. Settings Page: Updating the text shown on the embed elements
+
 == Installation ==
 1. Make sure that your WordPress installation meets the minimum requirements of this plugin.
 2. Upload the plugin to the /wp-content/plugins/ directory or install it directly from the admin pages.
