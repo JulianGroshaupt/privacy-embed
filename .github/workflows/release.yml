@@ -1,0 +1,33 @@
+name: release plugin
+
+on:
+  push:
+    tags:
+      - "*.*.*"
+
+jobs:
+  release:
+    runs-on: ubuntu-latest
+
+    steps:
+      - uses: actions/checkout@v2
+
+      - name: create zip
+        run: |
+          zip -r privacy-embed.zip ./ -x \*.git\* \*.github\* .wordpress-org\* .distignore\* .gitignore\*
+
+      - name: release on github
+        uses: softprops/action-gh-release@v1
+        if: startsWith(github.ref, 'refs/tags/')
+        with:
+          files: |
+            privacy-embed.zip
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+
+      - name: release on wordpress
+        uses: 10up/action-wordpress-plugin-deploy@stable
+        env:
+          SVN_PASSWORD: ${{ secrets.SVN_PASSWORD }}
+          SVN_USERNAME: ${{ secrets.SVN_USERNAME }}
+          SLUG: privacy-embed
