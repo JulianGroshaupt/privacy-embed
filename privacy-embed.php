@@ -4,7 +4,7 @@
  * Plugin Name:       Privacy Embed
  * Plugin URI:        https://julian-groshaupt.de/projekte/wordpress/privacy-embed
  * Description:       Providing shortcodes to privacy-friendly embed external elements (like YouTube videos).
- * Version:           1.0.0
+ * Version:           1.0.1
  * Requires at least: 5.7 
  * Requires PHP:      5.1.2
  * Author:            Julian Groshaupt

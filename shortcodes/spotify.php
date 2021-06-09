@@ -42,8 +42,14 @@ if (!class_exists('PrivacyEmbedSpotifyShortcode')) {
 
       // get texts from settings
       $options = get_option('privacy-embed_settings-page', array());
+
       $embed_notice = esc_html($options['spotify_embed_notice']);
+      $embed_notice_default = __('There is external content hidden here that would have to be loaded by Spotify. We have no influence on this external content and its provision. This means that we cannot say whether and to what extent your personal data is processed by Spotify (or, for example, whether so-called tracking takes place). You could find more information in Spotify\'s privacy policy. If you still want to load the content, this decision only applies to this individual content and only until the page is reloaded.', 'privacy-embed');
+      $embed_notice = ($embed_notice == "" ? $embed_notice_default : $embed_notice);
+
       $embed_load = esc_html($options['spotify_embed_load']);
+      $embed_load_default = __('Load content from Spotify anyway.', 'privacy-embed');
+      $embed_load = ($embed_load == "" ? $embed_load_default : $embed_load);
 
       // generate and return output (html)
       $output = '';
@@ -52,7 +58,7 @@ if (!class_exists('PrivacyEmbedSpotifyShortcode')) {
       if ($title != '') $output .= '<h2>' . $title . '</h2>';
 
       // create overall div
-      $output .= '<div class="spotify privacy-embed">';
+      $output .= '<div><div class="spotify privacy-embed">';
 
       // add iframe
       $output .= '<iframe class="spotify privacy-embed-iframe" data-src="' . $spotify_embed_url . '"></iframe>';
@@ -67,7 +73,7 @@ if (!class_exists('PrivacyEmbedSpotifyShortcode')) {
       </p>';
 
       // close overall div
-      $output .= '</div>';
+      $output .= '</div></div>';
 
       // return everything
       return $output;
