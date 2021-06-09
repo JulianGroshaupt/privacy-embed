@@ -19,6 +19,13 @@ if (!defined('ABSPATH')) {
   exit;
 }
 
+// translation
+add_action('init', 'privacy_embed__load_textdomain');
+function privacy_embed__load_textdomain()
+{
+  load_plugin_textdomain('privacy-embed', false, dirname(plugin_basename(__FILE__)) . '/languages');
+}
+
 // require settings
 require_once('settings.php');
 
