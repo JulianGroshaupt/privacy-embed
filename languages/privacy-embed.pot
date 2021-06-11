@@ -1,0 +1,142 @@
+#, fuzzy
+msgid ""
+msgstr ""
+"Plural-Forms: nplurals=INTEGER; plural=EXPRESSION;\n"
+"Project-Id-Version: Privacy Embed\n"
+"POT-Creation-Date: 2021-06-09 17:25+0200\n"
+"PO-Revision-Date: 2021-06-09 17:24+0200\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 3.0\n"
+"X-Poedit-Basepath: ..\n"
+"X-Poedit-Flags-xgettext: --add-comments=translators:\n"
+"X-Poedit-WPHeader: privacy-embed.php\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-KeywordsList: __;_e;_n:1,2;_x:1,2c;_ex:1,2c;_nx:4c,1,2;esc_attr__;"
+"esc_attr_e;esc_attr_x:1,2c;esc_html__;esc_html_e;esc_html_x:1,2c;_n_noop:1,2;"
+"_nx_noop:3c,1,2;__ngettext_noop:1,2\n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Poedit-SearchPathExcluded-0: *.min.js\n"
+
+#: includes/PrivacyEmbedRationalOptionPages.php:718
+msgid "Field parameter \"title\" is required"
+msgstr ""
+
+#: includes/PrivacyEmbedRationalOptionPages.php:814
+msgid "Page parameter \"page_title\" is required"
+msgstr ""
+
+#: includes/PrivacyEmbedRationalOptionPages.php:877
+msgid "Section parameter \"title\" is required"
+msgstr ""
+
+#: settings.php:13
+msgid "Privacy Embed Settings"
+msgstr ""
+
+#: settings.php:17
+msgid "YouTube"
+msgstr ""
+
+#: settings.php:20 settings.php:37
+msgid "Embed Notice Message"
+msgstr ""
+
+#: settings.php:23 shortcodes/youtube.php:64
+msgid ""
+"Here is hidden external content that would have to be loaded from YouTube. "
+"We have no influence on this external content and its provision. This means "
+"that we cannot say whether and to what extent your personal data is "
+"processed by YouTube (or, for example, whether so-called tracking takes "
+"place). You can find more information in YouTube's privacy policy. If you "
+"still want to load the content, this decision only applies to this "
+"individual content and only until the page is reloaded."
+msgstr ""
+
+#: settings.php:26 settings.php:43
+msgid "Embed Load Text"
+msgstr ""
+
+#: settings.php:29 shortcodes/youtube.php:68
+msgid "Load content from YouTube anyway."
+msgstr ""
+
+#: settings.php:34
+msgid "Spotify"
+msgstr ""
+
+#: settings.php:40 shortcodes/spotify.php:47
+msgid ""
+"There is external content hidden here that would have to be loaded by "
+"Spotify. We have no influence on this external content and its provision. "
+"This means that we cannot say whether and to what extent your personal data "
+"is processed by Spotify (or, for example, whether so-called tracking takes "
+"place). You could find more information in Spotify's privacy policy. If you "
+"still want to load the content, this decision only applies to this "
+"individual content and only until the page is reloaded."
+msgstr ""
+
+#: settings.php:46 shortcodes/spotify.php:51
+msgid "Load content from Spotify anyway."
+msgstr ""
+
+#: wpbakery/spotify.php:19
+msgid "Spotify (Privacy Embed)"
+msgstr ""
+
+#: wpbakery/spotify.php:21 wpbakery/youtube.php:21
+msgid "Privacy Modules"
+msgstr ""
+
+#: wpbakery/spotify.php:26 wpbakery/youtube.php:26
+msgid "Title"
+msgstr ""
+
+#: wpbakery/spotify.php:28 wpbakery/youtube.php:28
+msgid "The title above the embed"
+msgstr ""
+
+#: wpbakery/spotify.php:34
+msgid "Spotify Code (URL)"
+msgstr ""
+
+#: wpbakery/spotify.php:36
+msgid "Something like \"spotify:album:1DFixLWuPkv3KT3TnV35m3\""
+msgstr ""
+
+#: wpbakery/youtube.php:19
+msgid "YouTube (Privacy Embed)"
+msgstr ""
+
+#: wpbakery/youtube.php:34
+msgid "YouTube Link"
+msgstr ""
+
+#: wpbakery/youtube.php:36
+msgid "The link to the youtube video"
+msgstr ""
+
+#. Plugin Name of the plugin/theme
+msgid "Privacy Embed"
+msgstr ""
+
+#. Plugin URI of the plugin/theme
+msgid "https://julian-groshaupt.de/projekte/wordpress/privacy-embed"
+msgstr ""
+
+#. Description of the plugin/theme
+msgid ""
+"Providing shortcodes to privacy-friendly embed external elements (like "
+"YouTube videos)."
+msgstr ""
+
+#. Author of the plugin/theme
+msgid "Julian Groshaupt"
+msgstr ""
+
+#. Author URI of the plugin/theme
+msgid "https://julian-groshaupt.de/"
+msgstr ""

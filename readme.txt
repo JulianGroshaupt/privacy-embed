@@ -4,7 +4,7 @@ Tags: privacy, youtube-embed, youtube, spotify-embed, spotify, embed
 Requires at least: 5.7
 Tested up to: 5.7
 Requires PHP: 5.1.2
-Stable tag: 1.0.1
+Stable tag: 1.0.2
 License: GPL v2 or later
 License URI: License URI: https://www.gnu.org/licenses/gpl-2.0.html
 
@@ -19,7 +19,7 @@ For the WPBakery Page Builder plugin, prefabricated blocks are also provided so 
 
 Currently, embeddings of the following services are supported:
 * YouTube videos (Google)
-* Spotify (Artists, Albums, Tracks)
+* Spotify (Artists, Albums, Tracks, Podcast Episodes)
 
 == Screenshots ==
 1. Adding the shortcodes on a page
@@ -33,9 +33,14 @@ Currently, embeddings of the following services are supported:
     - Spotify*: `[privacy-embed_spotify title="Title of embed" spotify_url="spotify:album:1DFixLWuPkv3KT3TnV35m3"]`
     - YouTube: `[privacy-embed_youtube title="Title of embed" youtube_link="https://www.youtube.com/watch?v=kV9sNmujCPk"]`
 
-\* You can get the Spotify URI by clicking "Share" on the Spotify page of any artist, album or track and then selecting "Copy Spotify URI".
+\* You can get the Spotify URI by clicking \"Share\" on the Spotify page of any artist, album or track and then selecting \"Copy Spotify URI\". Getting the Spotify URL for a podcast episode requires a bit more steps: Click "Share" on the corresponding Spotify page and select "Copy episode link". From the copied link you now have to extract the part after ".../episode/" up to (excluding) the next question mark. Your Spotify URL is now composed of: `spotify:episode:extracted-part`. For podcasts (shows) you have to click "Share" on the corresponding Spotify page and select "Copy show link" nad extract the part after ".../show/" up to (excluding) the next question mark. Your Spotify URL is now composed of: `spotify:show:extracted-part`.
 
 == Changelog ==
+= 1.0.2 =
+* fixed: styling (again)
+* added: translation support (currently only german)
+* added/fixed: new displaying for spotify episodes and shows
+
 = 1.0.1 =
 * fixed: styling
 * fixed: title on youtube embeds
