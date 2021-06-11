@@ -13,6 +13,7 @@ Currently, embeddings of the following services are supported:
   - Artists
   - Albums
   - Tracks
+  - Podcast Episodes
 
 ## installation & usage
 
@@ -24,7 +25,7 @@ Currently, embeddings of the following services are supported:
    - YouTube:  
      `[privacy-embed_youtube title="Title of embed" youtube_link="https://www.youtube.com/watch?v=kV9sNmujCPk"]`
 
-\* You can get the Spotify URI by clicking \"Share\" on the Spotify page of any artist, album or track and then selecting \"Copy Spotify URI\".
+\* You can get the Spotify URI by clicking \"Share\" on the Spotify page of any artist, album or track and then selecting \"Copy Spotify URI\". Getting the Spotify URL for a podcast episode requires a bit more steps: Click "Share" on the corresponding Spotify page and select "Copy episode link". From the copied link you now have to extract the part after ".../episode/" up to (excluding) the next question mark. Your Spotify URL is now composed of: `spotify:episode:extracted-part`. For podcasts (shows) you have to click "Share" on the corresponding Spotify page and select "Copy show link" nad extract the part after ".../show/" up to (excluding) the next question mark. Your Spotify URL is now composed of: `spotify:show:extracted-part`.
 
 ## license
 
