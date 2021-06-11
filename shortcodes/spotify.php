@@ -52,7 +52,7 @@ if (!class_exists('PrivacyEmbedSpotifyShortcode')) {
       $embed_load = ($embed_load == "" ? $embed_load_default : $embed_load);
 
       // set additional css class for episodes (other format)
-      $additional_css_class = ($spotify_type == 'episode' ? 'spotify-episode' : '');
+      $additional_css_class = (in_array($spotify_type, array('episode', 'show')) ? 'spotify-episode' : '');
 
       // generate and return output (html)
       $output = '';
