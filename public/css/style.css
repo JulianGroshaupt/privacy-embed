@@ -58,9 +58,16 @@
 
 /* ---------- Spotify ---------- */
 
-.spotify.privacy-embed {
+.spotify.privacy-embed:not(.spotify-episode) {
   width: 100%;
   padding-top: 177.78%; /* 9:16 Aspect Ratio (divide 16 by 9 = 1.7778) */
+  position: relative; /* If you want text inside of it */
+  margin-bottom: 18px;
+}
+
+.spotify.spotify-episode.privacy-embed {
+  width: 100%;
+  height: 232px;
   position: relative; /* If you want text inside of it */
   margin-bottom: 18px;
 }

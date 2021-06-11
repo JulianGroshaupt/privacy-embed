@@ -51,6 +51,9 @@ if (!class_exists('PrivacyEmbedSpotifyShortcode')) {
       $embed_load_default = __('Load content from Spotify anyway.', 'privacy-embed');
       $embed_load = ($embed_load == "" ? $embed_load_default : $embed_load);
 
+      // set additional css class for episodes (other format)
+      $additional_css_class = ($spotify_type == 'episode' ? 'spotify-episode' : '');
+
       // generate and return output (html)
       $output = '';
 
@@ -58,7 +61,7 @@ if (!class_exists('PrivacyEmbedSpotifyShortcode')) {
       if ($title != '') $output .= '<h2>' . $title . '</h2>';
 
       // create overall div
-      $output .= '<div><div class="spotify privacy-embed">';
+      $output .= '<div><div class="spotify privacy-embed ' . $additional_css_class . '">';
 
       // add iframe
       $output .= '<iframe class="spotify privacy-embed-iframe" data-src="' . $spotify_embed_url . '"></iframe>';
