@@ -1,6 +1,6 @@
 === Privacy Embed ===
 Contributors: juliangroshaupt
-Tags: privacy, youtube-embed, youtube, spotify-embed, spotify, embed
+Tags: privacy, youtube-embed, youtube, spotify-embed, spotify, embed, twitter, twitter-embed, gdpr
 Requires at least: 5.7
 Tested up to: 5.7
 Requires PHP: 5.1.2
