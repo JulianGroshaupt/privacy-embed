@@ -3,7 +3,7 @@ msgid ""
 msgstr ""
 "Plural-Forms: nplurals=INTEGER; plural=EXPRESSION;\n"
 "Project-Id-Version: Privacy Embed\n"
-"POT-Creation-Date: 2021-06-09 17:25+0200\n"
+"POT-Creation-Date: 2021-06-14 11:12+0200\n"
 "PO-Revision-Date: 2021-06-09 17:24+0200\n"
 "Last-Translator: \n"
 "Language-Team: \n"
@@ -16,8 +16,8 @@ msgstr ""
 "X-Poedit-WPHeader: privacy-embed.php\n"
 "X-Poedit-SourceCharset: UTF-8\n"
 "X-Poedit-KeywordsList: __;_e;_n:1,2;_x:1,2c;_ex:1,2c;_nx:4c,1,2;esc_attr__;"
-"esc_attr_e;esc_attr_x:1,2c;esc_html__;esc_html_e;esc_html_x:1,2c;_n_noop:1,2;"
-"_nx_noop:3c,1,2;__ngettext_noop:1,2\n"
+"esc_attr_e;esc_attr_x:1,2c;esc_html__;esc_html_e;esc_html_x:1,2c;"
+"_n_noop:1,2;_nx_noop:3c,1,2;__ngettext_noop:1,2\n"
 "X-Poedit-SearchPath-0: .\n"
 "X-Poedit-SearchPathExcluded-0: *.min.js\n"
 
@@ -41,7 +41,7 @@ msgstr ""
 msgid "YouTube"
 msgstr ""
 
-#: settings.php:20 settings.php:37
+#: settings.php:20 settings.php:37 settings.php:54
 msgid "Embed Notice Message"
 msgstr ""
 
@@ -56,7 +56,7 @@ msgid ""
 "individual content and only until the page is reloaded."
 msgstr ""
 
-#: settings.php:26 settings.php:43
+#: settings.php:26 settings.php:43 settings.php:60
 msgid "Embed Load Text"
 msgstr ""
 
@@ -83,19 +83,62 @@ msgstr ""
 msgid "Load content from Spotify anyway."
 msgstr ""
 
+#: settings.php:51
+msgid "Twitter"
+msgstr ""
+
+#: settings.php:57 shortcodes/twitter.php:45
+msgid ""
+"There is external content hidden here that would have to be loaded by "
+"Twitter. We have no influence on this external content and its provision. "
+"This means that we cannot say whether and to what extent your personal data "
+"is processed by Twitter (or, for example, whether so-called tracking takes "
+"place). You could find more information in Twitter's privacy policy. If you "
+"still want to load the content, this decision only applies until the page "
+"is reloaded."
+msgstr ""
+
+#: settings.php:63 shortcodes/twitter.php:49
+msgid "Load content from Twitter anyway."
+msgstr ""
+
+#: settings.php:66
+msgid "Follow Button Text (preview only)"
+msgstr ""
+
+#: settings.php:69 shortcodes/twitter.php:53
+msgid "Follow @"
+msgstr ""
+
+#: settings.php:72
+msgid "Mention Button Text (preview only)"
+msgstr ""
+
+#: settings.php:75 shortcodes/twitter.php:57
+msgid "Tweet to @"
+msgstr ""
+
+#: settings.php:78
+msgid "Hashtag Button Text (preview only)"
+msgstr ""
+
+#: settings.php:81 shortcodes/twitter.php:61
+msgid "Tweet #"
+msgstr ""
+
 #: wpbakery/spotify.php:19
 msgid "Spotify (Privacy Embed)"
 msgstr ""
 
-#: wpbakery/spotify.php:21 wpbakery/youtube.php:21
+#: wpbakery/spotify.php:21 wpbakery/twitter.php:21 wpbakery/youtube.php:21
 msgid "Privacy Modules"
 msgstr ""
 
-#: wpbakery/spotify.php:26 wpbakery/youtube.php:26
+#: wpbakery/spotify.php:26 wpbakery/twitter.php:26 wpbakery/youtube.php:26
 msgid "Title"
 msgstr ""
 
-#: wpbakery/spotify.php:28 wpbakery/youtube.php:28
+#: wpbakery/spotify.php:28 wpbakery/twitter.php:28 wpbakery/youtube.php:28
 msgid "The title above the embed"
 msgstr ""
 
@@ -105,6 +148,46 @@ msgstr ""
 
 #: wpbakery/spotify.php:36
 msgid "Something like \"spotify:album:1DFixLWuPkv3KT3TnV35m3\""
+msgstr ""
+
+#: wpbakery/twitter.php:19
+msgid "Twitter (Privacy Embed)"
+msgstr ""
+
+#: wpbakery/twitter.php:34
+msgid "Twitter Link"
+msgstr ""
+
+#: wpbakery/twitter.php:36
+msgid "A link to a user, a hastag or a single tweet"
+msgstr ""
+
+#: wpbakery/twitter.php:42
+msgid "Twitter Type"
+msgstr ""
+
+#: wpbakery/twitter.php:45
+msgid "single tweet"
+msgstr ""
+
+#: wpbakery/twitter.php:46
+msgid "timeline of an user"
+msgstr ""
+
+#: wpbakery/twitter.php:47
+msgid "follow button"
+msgstr ""
+
+#: wpbakery/twitter.php:48
+msgid "mention button"
+msgstr ""
+
+#: wpbakery/twitter.php:49
+msgid "hashtag button"
+msgstr ""
+
+#: wpbakery/twitter.php:51
+msgid "The type of the embed"
 msgstr ""
 
 #: wpbakery/youtube.php:19
