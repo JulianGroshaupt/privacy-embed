@@ -47,6 +47,41 @@ $pages = array(
           ),
         ),
       ),
+      'privacy-embed_twitter-section' => array(
+        'title' => __('Twitter', 'privacy-embed'),
+        'fields' => array(
+          'twitter_embed_notice' => array(
+            'title' => __('Embed Notice Message', 'privacy-embed'),
+            'id' => 'twitter_embed_notice',
+            'type' => 'textarea',
+            'value' => __('There is external content hidden here that would have to be loaded by Twitter. We have no influence on this external content and its provision. This means that we cannot say whether and to what extent your personal data is processed by Twitter (or, for example, whether so-called tracking takes place). You could find more information in Twitter\'s privacy policy. If you still want to load the content, this decision only applies until the page is reloaded.', 'privacy-embed')
+          ),
+          'twitter_embed_load' => array(
+            'title' => __('Embed Load Text', 'privacy-embed'),
+            'id' => 'twitter_embed_load',
+            'type' => 'text',
+            'value' => __('Load content from Twitter anyway.', 'privacy-embed')
+          ),
+          'twitter_follow_button' => array(
+            'title' => __('Follow Button Text (preview only)', 'privacy-embed'),
+            'id' => 'twitter_follow_button',
+            'type' => 'text',
+            'value' => __('Follow @', 'privacy-embed')
+          ),
+          'twitter_mention_button' => array(
+            'title' => __('Mention Button Text (preview only)', 'privacy-embed'),
+            'id' => 'twitter_mention_button',
+            'type' => 'text',
+            'value' => __('Tweet to @', 'privacy-embed')
+          ),
+          'twitter_hashtag_button' => array(
+            'title' => __('Hashtag Button Text (preview only)', 'privacy-embed'),
+            'id' => 'twitter_hashtag_button',
+            'type' => 'text',
+            'value' => __('Tweet #', 'privacy-embed')
+          ),
+        ),
+      ),
     ),
   ),
 );
