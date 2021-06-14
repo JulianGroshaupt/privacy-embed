@@ -35,6 +35,12 @@ if (!class_exists('PrivacyEmbedTwitterShortcode')) {
       $twitter_link = esc_html($attributes['twitter_link']);
       $twitter_type = esc_html($attributes['twitter_type']);
 
+      // validate type
+      if ($twitter_type == '') {
+        $error_message = __('error: no type for this twitter embed specified', 'privacy-embed');
+        return '<p>' . $error_message . '</p>';
+      }
+
       // get preview image (thumbnail)
       $thumbnail_src = plugins_url('public/images/twitter_thumbnail.jpg', dirname(__FILE__));
 
@@ -69,7 +75,8 @@ if (!class_exists('PrivacyEmbedTwitterShortcode')) {
           $twitter_html = '<blockquote class="twitter-tweet"><a href="' . $twitter_link . '"></a></blockquote>';
           break;
         case 'timeline':
-          $twitter_html = '<a class="twitter-timeline" href="' . $twitter_link . '"></a>';
+          $twitter_username = privacy_embed__twitter_profile_link_to_twitter_username($twitter_link);
+          $twitter_html = '<a class="twitter-timeline" href="https://twitter.com/' . $twitter_username . '"></a>';
           break;
         case 'follow-button':
           $show_embed = false;

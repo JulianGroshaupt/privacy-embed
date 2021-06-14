@@ -44,6 +44,7 @@ require_once('shortcodes/twitter.php');
 if (defined('WPB_VC_VERSION')) {
   require_once('wpbakery/youtube.php');
   require_once('wpbakery/spotify.php');
+  require_once('wpbakery/twitter.php');
 }
 
 // load jquery
