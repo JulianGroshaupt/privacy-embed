@@ -120,3 +120,51 @@
   cursor: pointer;
   text-decoration: underline;
 }
+
+/* ---------- Twitter ---------- */
+
+.twitter.privacy-embed {
+  width: 100%;
+  padding-top: 56.25%; /* 16:9 Aspect Ratio (divide 9 by 16 = 0.5625) */
+  position: relative; /* If you want text inside of it */
+  margin-bottom: 18px;
+}
+
+.twitter.privacy-embed-thumbnail {
+  position: absolute;
+  max-width: unset !important;
+  width: calc(100% - 2 * 3px);
+  height: calc(100% - 2 * 3px) !important;
+  top: 3px;
+  left: 3px;
+  object-fit: cover;
+  z-index: 1;
+  filter: blur(5px) brightness(50%);
+}
+
+.twitter.privacy-embed-notice {
+  position: absolute;
+  width: calc(100% - 2 * 20px); /* (2*3px = border) | 2*20px = padding */
+  max-height: calc(100% - 2 * 20px); /* (2*3px = border) | 2*20px = padding */
+  top: calc(50% + 3px);
+  left: 18px;
+  transform: translateY(-50%);
+  padding: 0px 20px;
+  text-align: center;
+  object-fit: cover;
+  z-index: 2;
+  font-weight: bold;
+  color: white;
+  margin: 0px !important;
+
+  overflow-y: auto;
+  overflow-x: hidden;
+}
+
+.twitter.privacy-embed-load {
+  font-weight: bold;
+  color: white;
+
+  cursor: pointer;
+  text-decoration: underline;
+}

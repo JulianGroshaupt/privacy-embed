@@ -32,10 +32,13 @@ require_once('settings.php');
 // require functions
 require_once('functions/privacy_embed__does_file_exists.php');
 require_once('functions/privacy_embed__add_jpg_to_wordpress_media.php');
+require_once('functions/privacy_embed__twitter_profile_link_to_twitter_username.php');
+require_once('functions/privacy_embed__twitter_hashtag_link_to_twitter_hashtag.php');
 
 // require shortcodes
 require_once('shortcodes/youtube.php');
 require_once('shortcodes/spotify.php');
+require_once('shortcodes/twitter.php');
 
 // require wpbakery files
 if (defined('WPB_VC_VERSION')) {
