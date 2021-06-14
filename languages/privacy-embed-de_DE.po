@@ -1,8 +1,8 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: Privacy Embed\n"
-"POT-Creation-Date: 2021-06-14 11:12+0200\n"
-"PO-Revision-Date: 2021-06-14 11:17+0200\n"
+"POT-Creation-Date: 2021-06-14 14:14+0200\n"
+"PO-Revision-Date: 2021-06-14 14:15+0200\n"
 "Last-Translator: \n"
 "Language-Team: \n"
 "Language: de\n"
@@ -103,7 +103,7 @@ msgstr "Inhalte von Spotify dennoch laden."
 msgid "Twitter"
 msgstr "Twitter"
 
-#: settings.php:57 shortcodes/twitter.php:45
+#: settings.php:57 shortcodes/twitter.php:51
 msgid ""
 "There is external content hidden here that would have to be loaded by "
 "Twitter. We have no influence on this external content and its provision. "
@@ -122,7 +122,7 @@ msgstr ""
 "Solltest du den Inhalt dennoch laden wollen, gilt diese Entscheidung nur bis "
 "zum neuladen der Seite."
 
-#: settings.php:63 shortcodes/twitter.php:49
+#: settings.php:63 shortcodes/twitter.php:55
 msgid "Load content from Twitter anyway."
 msgstr "Inhalte von Twitter dennoch laden."
 
@@ -130,7 +130,7 @@ msgstr "Inhalte von Twitter dennoch laden."
 msgid "Follow Button Text (preview only)"
 msgstr "Folgen-Button (nur Vorschau-Text)"
 
-#: settings.php:69 shortcodes/twitter.php:53
+#: settings.php:69 shortcodes/twitter.php:59
 msgid "Follow @"
 msgstr "Folge @"
 
@@ -138,7 +138,7 @@ msgstr "Folge @"
 msgid "Mention Button Text (preview only)"
 msgstr "Erwähnen-Button (nur Vorschau-Text)"
 
-#: settings.php:75 shortcodes/twitter.php:57
+#: settings.php:75 shortcodes/twitter.php:63
 msgid "Tweet to @"
 msgstr "Erwähne @"
 
@@ -146,9 +146,13 @@ msgstr "Erwähne @"
 msgid "Hashtag Button Text (preview only)"
 msgstr "Hashtag-Button (nur Vorschau-Text)"
 
-#: settings.php:81 shortcodes/twitter.php:61
+#: settings.php:81 shortcodes/twitter.php:67
 msgid "Tweet #"
 msgstr "Tweete #"
+
+#: shortcodes/twitter.php:40
+msgid "error: no type for this twitter embed specified"
+msgstr "Fehler: es wurde kein Typ für diese Twitter-Einbettung angegeben"
 
 #: wpbakery/spotify.php:19
 msgid "Spotify (Privacy Embed)"
@@ -191,26 +195,30 @@ msgid "Twitter Type"
 msgstr "Twitter Typ"
 
 #: wpbakery/twitter.php:45
+msgid "choose value"
+msgstr "Wert auswählen"
+
+#: wpbakery/twitter.php:46
 msgid "single tweet"
 msgstr "einzelner Tweet"
 
-#: wpbakery/twitter.php:46
+#: wpbakery/twitter.php:47
 msgid "timeline of an user"
 msgstr "Timeline eines Benutzers"
 
-#: wpbakery/twitter.php:47
+#: wpbakery/twitter.php:48
 msgid "follow button"
 msgstr "Folgen-Button"
 
-#: wpbakery/twitter.php:48
+#: wpbakery/twitter.php:49
 msgid "mention button"
 msgstr "Erwähnen-Button"
 
-#: wpbakery/twitter.php:49
+#: wpbakery/twitter.php:50
 msgid "hashtag button"
 msgstr "Hashtag-Button"
 
-#: wpbakery/twitter.php:51
+#: wpbakery/twitter.php:52
 msgid "The type of the embed"
 msgstr "Der Typ der Einbettung"
 

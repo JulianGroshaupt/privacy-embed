@@ -3,7 +3,7 @@ msgid ""
 msgstr ""
 "Plural-Forms: nplurals=INTEGER; plural=EXPRESSION;\n"
 "Project-Id-Version: Privacy Embed\n"
-"POT-Creation-Date: 2021-06-14 11:12+0200\n"
+"POT-Creation-Date: 2021-06-14 14:14+0200\n"
 "PO-Revision-Date: 2021-06-09 17:24+0200\n"
 "Last-Translator: \n"
 "Language-Team: \n"
@@ -87,7 +87,7 @@ msgstr ""
 msgid "Twitter"
 msgstr ""
 
-#: settings.php:57 shortcodes/twitter.php:45
+#: settings.php:57 shortcodes/twitter.php:51
 msgid ""
 "There is external content hidden here that would have to be loaded by "
 "Twitter. We have no influence on this external content and its provision. "
@@ -98,7 +98,7 @@ msgid ""
 "is reloaded."
 msgstr ""
 
-#: settings.php:63 shortcodes/twitter.php:49
+#: settings.php:63 shortcodes/twitter.php:55
 msgid "Load content from Twitter anyway."
 msgstr ""
 
@@ -106,7 +106,7 @@ msgstr ""
 msgid "Follow Button Text (preview only)"
 msgstr ""
 
-#: settings.php:69 shortcodes/twitter.php:53
+#: settings.php:69 shortcodes/twitter.php:59
 msgid "Follow @"
 msgstr ""
 
@@ -114,7 +114,7 @@ msgstr ""
 msgid "Mention Button Text (preview only)"
 msgstr ""
 
-#: settings.php:75 shortcodes/twitter.php:57
+#: settings.php:75 shortcodes/twitter.php:63
 msgid "Tweet to @"
 msgstr ""
 
@@ -122,8 +122,12 @@ msgstr ""
 msgid "Hashtag Button Text (preview only)"
 msgstr ""
 
-#: settings.php:81 shortcodes/twitter.php:61
+#: settings.php:81 shortcodes/twitter.php:67
 msgid "Tweet #"
+msgstr ""
+
+#: shortcodes/twitter.php:40
+msgid "error: no type for this twitter embed specified"
 msgstr ""
 
 #: wpbakery/spotify.php:19
@@ -167,26 +171,30 @@ msgid "Twitter Type"
 msgstr ""
 
 #: wpbakery/twitter.php:45
-msgid "single tweet"
+msgid "choose value"
 msgstr ""
 
 #: wpbakery/twitter.php:46
-msgid "timeline of an user"
+msgid "single tweet"
 msgstr ""
 
 #: wpbakery/twitter.php:47
-msgid "follow button"
+msgid "timeline of an user"
 msgstr ""
 
 #: wpbakery/twitter.php:48
-msgid "mention button"
+msgid "follow button"
 msgstr ""
 
 #: wpbakery/twitter.php:49
+msgid "mention button"
+msgstr ""
+
+#: wpbakery/twitter.php:50
 msgid "hashtag button"
 msgstr ""
 
-#: wpbakery/twitter.php:51
+#: wpbakery/twitter.php:52
 msgid "The type of the embed"
 msgstr ""
 
