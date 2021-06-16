@@ -23,9 +23,16 @@ Currently, embeddings of the following services are supported:
 * Twitter (Single Tweet, User Timeline, Follow-Button, Mention-Button, Hashtag-Button)
 
 == Screenshots ==
-1. Adding the shortcodes on a page
-2. Spotify and YouTube Embed on a page
-3. Settings Page: Updating the text shown on the embed elements
+1. Settings Page: Updating the text shown on (or instead of) the embed elements
+2. Sample YouTube Shortcode
+3. YouTube Embed Element (before the user loads the content)
+4. YouTube Embed Element (after the user loaded the content)
+5. Sample Spotify Shortcodes
+6. Spotify Embed Elements (before the user loads the content)
+7. Spotify Embed Elements (after the user loaded the content)
+8. Sample Twitter Shortcodes
+9. Twitter Embed Elements (before the user loads the content)
+10. Twitter Embed Elements (after the user loaded the content)
 
 == Installation ==
 1. Make sure that your WordPress installation meets the minimum requirements of this plugin.
