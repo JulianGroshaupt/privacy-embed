@@ -70,7 +70,7 @@ if (!class_exists('PrivacyEmbedSpotifyShortcode')) {
       $output .= '<img src="' . $thumbnail_src . '" alt="Spotify Thumbnail" class="spotify privacy-embed-thumbnail" />';
 
       // add privacy-notice
-      $output .= '<p class="youtube privacy-embed-notice">
+      $output .= '<p class="spotify privacy-embed-notice">
       ' . $embed_notice . '<br><br>
       <span class="spotify privacy-embed-load">' . $embed_load . '</span>
       </p>';
