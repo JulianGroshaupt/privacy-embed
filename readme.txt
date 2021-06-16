@@ -4,7 +4,7 @@ Tags: privacy, youtube-embed, youtube, spotify-embed, spotify, embed, twitter, t
 Requires at least: 5.7
 Tested up to: 5.7
 Requires PHP: 5.1.2
-Stable tag: 1.0.2
+Stable tag: 1.0.3
 License: GPL v2 or later
 License URI: License URI: https://www.gnu.org/licenses/gpl-2.0.html
 
@@ -55,6 +55,10 @@ The following examples can be values of the field `twitter_link`:
 * hashtag-button: `https://twitter.com/hashtag/WordPress`
 
 == Changelog ==
+= 1.0.3 =
+* added: twitter embeds
+* updated: description (especially structure)
+
 = 1.0.2 =
 * fixed: styling (again)
 * added: translation support (currently only german)
