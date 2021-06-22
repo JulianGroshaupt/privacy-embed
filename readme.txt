@@ -45,9 +45,9 @@ Currently, embeddings of the following services are supported:
 = Notices = 
 You can get the Spotify URI by clicking "Share" on the Spotify page of any artist, album or track and then selecting "Copy Spotify URI".
 
-Getting the Spotify URL for a podcast episode requires a bit more steps: Click "Share" on the corresponding Spotify page and select "Copy episode link". From the copied link you now have to extract the part after ".../episode/" up to (excluding) the next question mark. Your Spotify URL is now composed of: `spotify:episode:extracted-part`.
+Getting the Spotify URL for a podcast episode requires a bit more steps: Click "Share" on the corresponding Spotify page and select "Copy episode link". From the copied link you now have to extract the part after ".../episode/" up to (excluding) the next question mark. Your Spotify URL is now composed of: `"spotify:episode:extracted-part"`.
 
-For podcasts (shows) you have to click "Share" on the corresponding Spotify page and select "Copy show link" nad extract the part after ".../show/" up to (excluding) the next question mark. Your Spotify URL is now composed of: `spotify:show:extracted-part`.
+For podcasts (shows) you have to click "Share" on the corresponding Spotify page and select "Copy show link" nad extract the part after ".../show/" up to (excluding) the next question mark. Your Spotify URL is now composed of: `"spotify:show:extracted-part"`.
 
 The following examples can be values of the field `twitter_link`:
 * single tweet: `https://twitter.com/WordPress/status/1402457431742074881`
